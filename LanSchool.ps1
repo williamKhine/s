@@ -1,4 +1,4 @@
-Start-Process "chrome.exe"
+Start-Process "C:\Program Files (x86)\LanSchool\teacher.exe"
 $AllowList = @(
     "*my.torontomu.ca*",
     "*cas.torontomu.ca*",
