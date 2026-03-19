@@ -6,7 +6,11 @@ $AllowList = @(
     "*courses.torontomu.ca/d2l/lms/dropbox*",
     "*courses.torontomu.ca/d2l/lms/quizzing*",
     "*library.torontomu.ca*",
-    "*edu-knotia-ca.ezproxy.lib.torontomu.ca*"
+    "*edu-knotia-ca.ezproxy.lib.torontomu.ca*",
+    "chrome.exe",
+    "excel.exe",
+    "winword.exe",
+    "acrord32.exe"
 )
 Set-Clipboard -Value ($AllowList -join "`n")
 
