@@ -12,5 +12,5 @@ $AllowList = @(
     "winword.exe",
     "acrord32.exe"
 )
-Set-Clipboard -Value ($AllowList -join "`n")
+Set-Clipboard -Value ($AllowList -join "`r`n")
 
