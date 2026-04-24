@@ -10,7 +10,10 @@ $Websites = @(
 $Applications = @(
     "excel.exe",
     "winword.exe",
-    "acrord32.exe"
+    "acrord32.exe",
+    "msedge.exe",
+    "powerpnt.exe",
+    "firefox.exe"
 )
 
 foreach ($site in $Websites) {
