@@ -1,0 +1,22 @@
+$Websites = @(
+    "courses.torontomu.ca",
+    "library.torontomu.ca",
+    "edu-knotia-ca.ezproxy.lib.torontomu.ca",
+    "amazon.ca",
+    "openai.com",
+    "google.com"
+)
+
+$Applications = @(
+    "excel.exe",
+    "winword.exe",
+    "acrord32.exe"
+)
+
+foreach ($site in $Websites) {
+    Start-Process "chrome.exe" $site
+}
+
+foreach ($app in $Applications) {
+    Start-Process $app
+}
